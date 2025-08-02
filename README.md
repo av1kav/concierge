@@ -18,3 +18,7 @@ You will need an internet connection, Docker and `k3d` in order to run the light
 
     > ``docker build -t video-to-audio -f Dockerfiles/ffmpeg.Dockerfile .``
     > ``k3d image import video-to-audio -c cluster-concierge``
+
+1. Bring down all services using:
+
+    > ````
